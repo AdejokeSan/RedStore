@@ -1,0 +1,147 @@
+.logo{
+    width: 50px;
+}
+.img{
+    width: 120px;
+}
+.h1{
+ font-weight: bold;
+ font-size: 55px;
+ margin-top: 20px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p{
+    font-size: 25px;
+}
+.img-fluid{
+    margin-top: 50px;
+}
+#Home{
+    background-color:white;
+    background-image: radial-gradient(white,pink);
+}
+.btn{
+    border-radius: 50px;
+    width: 30vh;
+    height: 35px;
+    color: white;
+    background-color: rgb(243, 65, 10);
+    border: none;
+}
+.btn:hover{
+    background-color:brown;
+}
+.star{
+  color: red;
+  font-size: 12px;
+}
+.Pt{
+  font-size: 18px;
+}
+.num{
+  display:flex;
+  gap: 1rem;
+}
+.nums{
+  outline: 1px solid red;
+  width: 40px;
+  height: 35px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.img{
+  display:flex;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.span{
+  background-color: red;
+  height: 5px;
+  width: 80px;
+  margin-left: 520px;
+  border-radius: 5px;
+}
+
+.pink{
+  background-color:white;
+  background-image: radial-gradient(white,rgb(252, 201, 209));
+  width:100%;
+  height: 100vh;
+}
+
+.img2{
+  margin-left: 100px;
+}
+.crd{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color:white;
+}
+.im{
+  border-radius: 50px;
+}
+hr{
+  background-color:white;
+  width: 100%;
+}
+.app-logo{
+  display: flex;
+  gap: 5px;
+}
+.imag{
+  margin-left: 50px;
+  width: 150px;
+  height:50px;
+}
+li{
+  list-style: none;
+}  
+.row-imgs{
+  filter: grayscale(100%);
+}
+.row-imgs:hover{
+  filter: grayscale(0%);
+}
+.img1{
+  transition: 0.5s;
+}
+.img1:hover{
+  transform: translateY(-40px);
+}
+
+.im1{
+  transition: 0.5s;
+}
+.im1:hover{
+  transform: translateX(-10px);
+}
+.con .form-select{
+width: 150px; 
+height:35px;
+}
+.form-select{
+width: 130px;
+ height:40px;
+}
+input{
+  height:30px;
+   width:50px;
+}
+
+
+@media(min-width:600px){
+  .pink{
+    width:100%;
+    height: 60vh; 
+  }
+  .img2{
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+  .imag{
+    margin-left: 100px;
+    width: 150px;
+    height:50px;
+  }
+}
